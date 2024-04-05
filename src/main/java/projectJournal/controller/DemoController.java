@@ -9,7 +9,7 @@ public class DemoController {
 
     @GetMapping("/demo")
     public String demo() {
-        for (int i = 0; i < 4999999; i++) {
+        for (int i = 0; i < 999999; i++) {
             System.out.println("test" + i);
         }
         return "done";
